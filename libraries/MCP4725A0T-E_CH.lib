@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MCP4725A0T-E/CH
+#
+DEF MCP4725A0T-E/CH U 0 40 Y Y 1 L N
+F0 "U" -173 262 50 H V L CNN
+F1 "MCP4725A0T-E/CH" -234 -524 50 H V L CNN
+F2 "SOT95P270X145-6N" 0 0 50 H I L CNN
+F3 "SOT-23-6 Microchip" 0 0 50 H I L CNN "Package"
+F4 "MCP4725A0T-E/CH" 0 0 50 H I L CNN "MP"
+F5 "21.31 USD" 0 0 50 H I L CNN "Price"
+F6 "Microchip" 0 0 50 H I L CNN "MF"
+F7 "MCP4725 Series 1 Ch I2C EEPROM Memory 5.5 V 12-Bit D/A Converter SMT - SOT-23-6" 0 0 50 H I L CNN "Description"
+F8 "Good" 0 0 50 H I L CNN "Availability"
+DRAW
+P 2 0 0 16 -620 20 -662 0 N
+P 2 0 0 16 -620 -20 -662 0 N
+P 2 0 0 16 620 -100 662 -80 N
+P 2 0 0 16 620 -100 662 -120 N
+P 2 0 0 16 620 -200 662 -180 N
+P 2 0 0 16 620 -200 662 -220 N
+P 2 0 0 16 682 -180 723 -200 N
+P 2 0 0 16 682 -220 723 -200 N
+P 2 0 0 16 -600 200 -600 -400 N
+P 2 0 0 16 -600 -400 600 -400 N
+P 2 0 0 16 600 -400 600 200 N
+P 2 0 0 16 600 200 -600 200 N
+X VOUT 1 -800 0 200 R 40 40 0 0 O 
+X VSS 2 -800 -100 200 R 40 40 0 0 I 
+X VDD 3 -800 -200 200 R 40 40 0 0 I 
+X A0 6 800 0 200 L 40 40 0 0 P 
+X SCL 5 800 -100 200 L 40 40 0 0 I 
+X SDA 4 800 -200 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
